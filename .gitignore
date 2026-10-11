@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Local database (contains local student passwords/messages)
+backend/acrm.sqlite3
+backend/acrm.sqlite3-shm
+backend/acrm.sqlite3-wal
+
+# Node / Vite
+node_modules/
+frontend/dist/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
